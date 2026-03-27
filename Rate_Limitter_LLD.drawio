@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/146.0.0.0 Safari/537.36" version="29.6.6">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1502" dy="1014" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1148" dy="775" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -14,7 +14,12 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="tNq3wRMN3R-buIBQhzZI-34" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tNq3wRMN3R-buIBQhzZI-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=16;endArrow=diamond;endFill=0;endSize=16;" target="tNq3wRMN3R-buIBQhzZI-18">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1900" y="600" />
+              <mxPoint x="2575" y="600" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="tNq3wRMN3R-buIBQhzZI-4" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RemoteResource" vertex="1">
           <mxGeometry height="56" width="160" x="1820" y="650" as="geometry" />
@@ -37,11 +42,11 @@
         <mxCell id="tNq3wRMN3R-buIBQhzZI-11" parent="tNq3wRMN3R-buIBQhzZI-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="void getResponse()" vertex="1">
           <mxGeometry height="26" width="260" y="60" as="geometry" />
         </mxCell>
-        <mxCell id="tNq3wRMN3R-buIBQhzZI-14" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RateLimittingStrategy" vertex="1">
-          <mxGeometry height="52" width="160" x="2300" y="648" as="geometry" />
+        <mxCell id="tNq3wRMN3R-buIBQhzZI-14" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=42;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;RateLimittingStrategy" vertex="1">
+          <mxGeometry height="68" width="160" x="2300" y="630" as="geometry" />
         </mxCell>
         <mxCell id="tNq3wRMN3R-buIBQhzZI-17" parent="tNq3wRMN3R-buIBQhzZI-14" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="void limit()" vertex="1">
-          <mxGeometry height="26" width="160" y="26" as="geometry" />
+          <mxGeometry height="26" width="160" y="42" as="geometry" />
         </mxCell>
         <mxCell id="tNq3wRMN3R-buIBQhzZI-35" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tNq3wRMN3R-buIBQhzZI-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=diamond;endFill=0;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=16;endSize=16;" target="tNq3wRMN3R-buIBQhzZI-8">
           <mxGeometry relative="1" as="geometry">
