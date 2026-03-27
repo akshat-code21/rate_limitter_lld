@@ -25,7 +25,7 @@
         <mxCell id="tNq3wRMN3R-buIBQhzZI-6" parent="tNq3wRMN3R-buIBQhzZI-4" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="160" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="tNq3wRMN3R-buIBQhzZI-7" parent="tNq3wRMN3R-buIBQhzZI-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+        <mxCell id="tNq3wRMN3R-buIBQhzZI-7" parent="tNq3wRMN3R-buIBQhzZI-4" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="void getResponse()" vertex="1">
           <mxGeometry height="26" width="160" y="60" as="geometry" />
         </mxCell>
         <mxCell id="tNq3wRMN3R-buIBQhzZI-13" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="tNq3wRMN3R-buIBQhzZI-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=default;align=center;verticalAlign=middle;fontFamily=Helvetica;fontSize=11;fontColor=default;labelBackgroundColor=default;startSize=16;endArrow=block;endFill=0;endSize=16;" target="tNq3wRMN3R-buIBQhzZI-0">
@@ -40,7 +40,7 @@
         <mxCell id="tNq3wRMN3R-buIBQhzZI-10" parent="tNq3wRMN3R-buIBQhzZI-8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
           <mxGeometry height="8" width="260" y="52" as="geometry" />
         </mxCell>
-        <mxCell id="tNq3wRMN3R-buIBQhzZI-11" parent="tNq3wRMN3R-buIBQhzZI-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ method(type): type" vertex="1">
+        <mxCell id="tNq3wRMN3R-buIBQhzZI-11" parent="tNq3wRMN3R-buIBQhzZI-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="void getResponse()" vertex="1">
           <mxGeometry height="26" width="260" y="60" as="geometry" />
         </mxCell>
         <mxCell id="tNq3wRMN3R-buIBQhzZI-14" parent="WIyWlLk6GJQsqaUBKTNV-1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="RateLimittingStrategy" vertex="1">
